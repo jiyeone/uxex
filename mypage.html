@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="mypage.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+</head>
+
+<body>
+
+
+    <!-- project -->
+    <div class="project-page">
+        <div class="close-btn"><i class="fal fa-times"></i></div>
+        <div class="project-area">
+            <div class="project-info">
+                <div class="project-profile"></div>
+                <div class="project-text">
+                    <div class="project-title">Title</div>
+                    <div class="project-follow">Follow</div>
+                    <div class="project-following">Following</div>
+                </div>
+            </div>
+            <div class="project-content">
+                <div class="slide content1" background-image="url(./imgs/flow-img/overview.png)"></div>
+                <div class="slide content2" background-image="url(./imgs/flow-img/interview.png)"></div>
+                <div class="slide content3" background-image="url(./imgs/flow-img/userjourney.png)"></div>
+                <div class="slide content4" background-image="url(./imgs/flow-img/designsys.png)"></div>
+                <div class="slide content5" background-image="url(#)">
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0)" width="100%" height="100%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fh6yesWzjUQIrgFvx8Pa6BP%2FUntitled%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+                </div>
+                <div class="slide content6" background-image="url(./imgs/flow-img/uidesign.png)">
+                    <div class="pin-area"><i class="fas fa-thumbtack"></i></div>
+                    <div class="pin-nactive">
+                        <div class="pin pin1">가상의 캐릭터가<br>현재 사용자의 상태를 알려줍니다.</div>
+                        <div class="pin pin2">튼튼이와의 대화를 통해<br>자신에게 필요한 건강 정보를 받아보세요.</div>
+                        <div class="pin pin3">3D 가상 캐릭터를 통해<br>아이와의 애착관계 형성을 도와줍니다.</div>
+                    </div>
+                </div>
+                <div class="slide content7" background-image="url(#)">
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fhb5MGjQvMxwl6OHchzdSfJ%2FSpotify%3Fnode-id%3D6%253A321%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A2" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="project-flow">
+                <!-- <div class="project-flow-line"></div> -->
+                <div class="project-flow-area">
+                    <div class="project-flow-line"></div>
+                        <div class="flow first">
+                            <div class="circle circle-selected"></div>
+                            <div class="flow-text text-selected">Overview</div>
+                        </div>
+                        <div class="flow 2nd">
+                            <div class="circle"></div>
+                            <div class="flow-text">Interview</div>
+                        </div>
+                        <!-- <div class="flow 3rd">
+                            <div class="circle"></div>
+                            <div class="flow-text">Persona</div>
+                        </div> -->
+                        <div class="flow 4th">
+                            <div class="circle"></div>
+                            <div class="flow-text">User<br>journey</div>
+                        </div>
+                        <div class="flow 5th">
+                            <div class="circle"></div>
+                            <div class="flow-text">Design<br>system</div>
+                        </div>
+                        <div class="flow 6th">
+                            <div class="circle"></div>
+                            <div class="flow-text">Wireframe</div>
+                        </div>
+                        <div class="flow 7th">
+                            <div class="circle"></div>
+                            <div class="flow-text">UI<br>design</div>
+                        </div>
+                        <div class="flow 8th">
+                            <div class="circle"></div>
+                            <div class="flow-text">User<br>test</div>
+                        </div>
+                </div>
+
+                <!-- <i class="fal fa-chevron-right rightarrow"></i>
+                <i class="fal fa-chevron-left leftarrow"></i> -->
+
+                <div class="right-box">
+                    <div class="archive right-box-content">
+                        <div class="archive-icon right-box-icon"><i class="fal fa-bookmark"></i></div>
+                        <p>저장</p>
+                    </div>
+                    <div class="likes right-box-content">
+                        <div class="likes-icon right-box-icon"><i class="fal fa-heart"></i></div>
+                        <p>좋아요</p>
+                    </div>
+                    <div class="comment right-box-content">
+                        <div class="comment-icon right-box-icon"><i class="fal fa-comment-alt-smile"></i></div>
+                        <p>댓글</p>
+                    </div>
+                </div>  
+
+<!-- 댓글영역 -->
+                <div class="comment-box">
+                    <div class="comment-header">
+                        <i class="fas fa-comment-alt-smile"></i>
+                        <div class="comment-num">1.3K</div>
+                        <div class="comment-close"><i class="fal fa-times"></i></div>
+                    </div>
+                    <div class="comment-input">
+                        <div class="input-profile"></div>
+                        <div class="input-comment">
+                            <input type="text" id="input-text"><button class="send"><i class="far fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                    <div class="comment-scroll">
+                        <div class="comment-content">
+                            <div class="user-comment">
+                                <div class="user-info">
+                                    <div class="comment-profile"></div>
+                                    <div class="comment-name">Nick-name</div>
+                                </div>
+                                <div class="user-say">
+                                    <div class="comment-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error praesentium quibusdam deleniti, omnis saepe, accusantium placeat iure nisi esse a tempore incidunt obcaecati, facere rerum unde in labore aliquam. Debitis!</div>
+                                    <div class="comment-like">
+                                        <i class="far fa-thumbs-up"></i>
+                                        <p>2.5K</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="login-area">
+        <div class="id"><p>ID</p><input></div>
+        <div class="pw"><p>PW</p><input type="password"></div>
+        <div class="login-button">Login</div>
+        <p>아이디 찾기 / 비밀번호 찾기</p>
+    </div>
+
+<!-- header -->
+<div class="main-back">
+    <div class="header">
+        <a href="index.html"><img class="logo" src ="imgs/logo.png" width="54px"></a>
+        
+        <!-- <div class="login-before">
+            <div class="search"><i class="far fa-search"></i><input class="input"></div>
+            <div class="login nav-btn">Log in</div>
+            <div class="signup nav-btn color-btn">Sign up</div>
+        </div> -->
+        <div class="login-after">
+            <div class="search"><i class="far fa-search"></i></div>
+            <a href="upload.html" class="upload nav-btn color-btn">Upload</a>
+            <a href="mypage.html" class="profile"></a>
+        </div>
+    </div>
+
+
+    <div class="mypage">
+        <!-- <div class="my-prop"> -->
+            <div class="my-prop-info">
+                <div class="my-img"></div>
+                <div class="my-name">JENNIE KIM</div>
+                <div class="my-info">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                <div class="my-follow">
+                    <div class="my-number my-following">
+                        <h2>Following</h2>
+                        <p>130</p>
+                    </div>
+                    <div class="my-number my-follower">
+                        <h2>Follower</h2>
+                        <p>130</p>
+                    </div>
+                </div>
+                <a><div class="edit-profile">Edit Profile</div></a>
+
+                <div class="sns">
+                    <a src="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <a src="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                    <a src="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        <!-- </div> -->
+        <div class="board">
+            <div class="board-nav">
+                <ul>
+                    <li class="subnav subnav1 nav-selected">Project</li>
+                    <li class="subnav subnav2">Mood Board</li>
+                </ul>
+            </div>
+            <div class="board-pj">
+                <div class="container-box">
+                    <div class="box-image product-image1">
+                        <div class="hover-box"></div>
+                        <div class="title-box">title</div>
+                        <div class="page">
+                            <div class="page-icon"><i class="fal fa-clone"></i></div>
+                            <div class="page-info">6</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="container-box">
+                    <div class="box-image product-image2">
+                        <div class="hover-box"></div>
+                        <div class="title-box">title</div>
+                        <div class="page">
+                            <div class="page-icon"><i class="fal fa-clone"></i></div>
+                            <div class="page-info">6</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="container-box">
+                    <div class="box-image product-image3">
+                        <div class="hover-box"></div>
+                        <div class="title-box">title</div>
+                        <div class="page">
+                            <div class="page-icon"><i class="fal fa-clone"></i></div>
+                            <div class="page-info">6</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-box">
+                    <div class="box-image product-image4">
+                        <div class="hover-box"></div>
+                        <div class="title-box">title</div>
+                        <div class="page">
+                            <div class="page-icon"><i class="fal fa-clone"></i></div>
+                            <div class="page-info">6</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="container-box">
+                    <div class="box-image product-image5">
+                        <div class="hover-box"></div>
+                        <div class="title-box">title</div>
+                        <div class="page">
+                            <div class="page-icon"><i class="fal fa-clone"></i></div>
+                            <div class="page-info">6</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="container-box">
+                    <div class="box-image product-image6">
+                        <div class="hover-box"></div>
+                        <div class="title-box">title</div>
+                        <div class="page">
+                            <div class="page-icon"><i class="fal fa-clone"></i></div>
+                            <div class="page-info">6</div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="board-md">
+
+                <div class="mood-box">
+                    <div class="container-box2">
+                        <div class="mood-hover"></div>
+                        <div class="sub-box-cover">
+                            <div class="sub-box sub-box1"></div>
+                            <div class="sub-box sub-box2"></div>
+                            <div class="sub-box sub-box3"></div>
+                            <div class="sub-box sub-box4"></div>
+                        </div>
+                    </div>
+                    <div class="box-info">
+                        <div class="info-name">Interaction design</div>
+                        <div class="info-like">
+                            <div class="like-icon"><i class="fal fa-paperclip"></i></div>
+                            <div class="like-number">5</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mood-box">
+                    <div class="container-box2">
+                        <div class="mood-hover"></div>
+                        <div class="sub-box-cover">
+                            <div class="sub-box sub-box5"></div>
+                            <div class="sub-box sub-box6"></div>
+                            <div class="sub-box sub-box7"></div>
+                            <div class="sub-box sub-box8"></div>
+                        </div>
+                    </div>
+                    <div class="box-info">
+                        <div class="info-name">3d modeling</div>
+                        <div class="info-like">
+                            <div class="like-icon"><i class="fal fa-paperclip"></i></div>
+                            <div class="like-number">31</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mood-box">
+                    <div class="container-box2">
+                        <div class="mood-hover"></div>
+                        <div class="sub-box-cover">
+                            <div class="sub-box sub-box9"></div>
+                            <div class="sub-box sub-box10"></div>
+                            <div class="sub-box sub-box11"></div>
+                            <div class="sub-box sub-box12"></div>
+                        </div>
+                    </div>
+                    <div class="box-info">
+                        <div class="info-name">Reference</div>
+                        <div class="info-like">
+                            <div class="like-icon"><i class="fal fa-paperclip"></i></div>
+                            <div class="like-number">8</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mood-box">
+                    <div class="container-box2">
+                        <div class="mood-hover"></div>
+                        <div class="sub-box-cover">
+                            <div class="sub-box sub-box13"></div>
+                            <div class="sub-box sub-box14"></div>
+                            <div class="sub-box sub-box15"></div>
+                            <div class="sub-box sub-box16"></div>
+                        </div>
+                    </div>
+                    <div class="box-info">
+                        <div class="info-name">Interesting</div>
+                        <div class="info-like">
+                            <div class="like-icon"><i class="fal fa-paperclip"></i></div>
+                            <div class="like-number">15</div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <img class="footer-logo" src ="imgs/logo.png" width="54px"></div>
+            <div class="footer-info">© 2021. UXex All rights reserved</div>
+        </div>
+    </footer>
+
+
+
+
+<!-- footer -->
+</div>
+
+
+
+
+
+
+
+
+
+    <script src="mypage.js"></script>
+</body>
+</html>
