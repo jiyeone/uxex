@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="upload.css">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script>
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+</head>
+
+<body>
+
+    <div class="project-page">
+        <div class="project-area">
+            <div class="upload-header">
+                <div class="project-info">
+                    <div class="project-text">
+                        <input class="project-title" type="search" size="60" placeholder="Fill the title" onfocus="this.placeholder=''" onblur="this.placeholder='Fill the title'" name="search">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <a href="index.html"><div class="nav-btn cancel-btn">Cancel</div></a>
+                    <a href="index2.html"><div class="nav-btn color-btn upload-btn">Upload</div></a>
+                </div>
+            </div>
+            <div class="project-content">
+                <div class="slide content1" background-image="url(#)">
+                    <div class="overview-img-area">
+                        <div class="black-opacity"></div>
+                        <a href="#"><i class="fas fa-camera"></i></a>
+                    </div>
+                    <div class="overview-text-area">
+                        <div class="overview-input">
+                            <textarea class="input-style overview-title" style="resize: none;" spellcheck="false">Overview Title</textarea>
+                            <textarea class="input-style overview-sub" style="resize: none;" spellcheck="false">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores officiis dolorum, libero dolores accusantium quaerat odio quo. Explicabo itaque porro eaque iusto et fugit hic cumque incidunt, expedita ex natus?
+                                
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facilis, excepturi!</textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide content2" background-image="url(#)">
+                    <div class="interview-box">
+                        <div class="interview1">
+                            <textarea class="input-style interview-q" style="resize: none;" spellcheck="false">Question 1</textarea>
+                            <a class="img-box" href="#"><i class="fas fa-camera interview-img"></i></a>
+                            <textarea class="input-style interview-key" style="resize: none;" spellcheck="false">"Key point 1"</textarea>
+                            <textarea class="input-style interview-a" style="resize: none;" spellcheck="false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem ex ab voluptatibus </textarea>
+                            <div class="circle-area">
+                                <div class="interview-circle circle11"></div>
+                                <div class="interview-circle circle22"></div>
+                                <div class="interview-circle circle33"></div>
+                            </div>
+                        </div>
+
+                        <div class="interview2">
+                            <textarea class="input-style interview-q" style="resize: none;" spellcheck="false">Question 2</textarea>
+                            <a class="img-box" href="#"><i class="fas fa-camera interview-img"></i></a>
+                            <textarea class="input-style interview-key" style="resize: none;" spellcheck="false">"Key point 1"</textarea>
+                            <textarea class="input-style interview-a" style="resize: none;" spellcheck="false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem ex ab voluptatibus </textarea>
+                            <div class="circle-area">
+                                <div class="interview-circle circle111"></div>
+                                <div class="interview-circle circle222"></div>
+                                <div class="interview-circle circle333"></div>
+                            </div>
+                        </div>
+
+                        <div class="interview3">
+                            <textarea class="input-style interview-q" style="resize: none;" spellcheck="false">Question 3</textarea>
+                            <a class="img-box" href="#"><i class="fas fa-camera interview-img"></i></a>
+                            <textarea class="input-style interview-key" style="resize: none;" spellcheck="false">"Key point 1"</textarea>
+                            <textarea class="input-style interview-a" style="resize: none;" spellcheck="false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem ex ab voluptatibus </textarea>
+                            <div class="circle-area">
+                                <div class="interview-circle circle1111"></div>
+                                <div class="interview-circle circle2222"></div>
+                                <div class="interview-circle circle3333"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide content3" background-image="url(#)">
+                    <!-- <div class="journey">
+
+                        <div class="emotion-map">
+                            <div class="journey-line"></div>
+                            <div class="emotion-area">
+                                <div class="emotion-title">
+                                    <textarea class="input-style emo-title" style="resize: none;" spellcheck="false">Process</textarea>
+                                </div>
+                                <div class="emotion-icon">
+                                        <i class="fal fa-smile smile"></i>
+                                        <i class="fal fa-meh no"></i>
+                                        <i class="fal fa-frown sad"></i>
+                                </div>
+                            </div>
+                            <div class="emotion-area">
+                                <div class="emotion-title">
+                                    <textarea class="input-style emo-title" style="resize: none;" spellcheck="false">Process</textarea>
+                                </div>
+                                <div class="emotion-icon">
+                                        <i class="fal fa-smile smile"></i>
+                                        <i class="fal fa-meh no"></i>
+                                        <i class="fal fa-frown sad"></i>
+                                </div>
+                            </div>
+                            <div class="emotion-area">
+                                <div class="emotion-title">
+                                    <textarea class="input-style emo-title" style="resize: none;" spellcheck="false">Process</textarea>
+                                </div>
+                                <div class="emotion-icon">
+                                        <i class="fal fa-smile smile"></i>
+                                        <i class="fal fa-meh no"></i>
+                                        <i class="fal fa-frown sad"></i>
+                                </div>
+                            </div>
+                            <div class="emotion-area">
+                                <div class="emotion-title">
+                                    <textarea class="input-style emo-title" style="resize: none;" spellcheck="false">Process</textarea>
+                                </div>
+                                <div class="emotion-icon">
+                                        <i class="fal fa-smile smile"></i>
+                                        <i class="fal fa-meh no"></i>
+                                        <i class="fal fa-frown sad"></i>
+                                </div>
+                            </div>
+                            <div class="emotion-area">
+                                <div class="emotion-title">
+                                    <textarea class="input-style emo-title" style="resize: none;" spellcheck="false">Process</textarea>
+                                </div>
+                                <div class="emotion-icon">
+                                        <i class="fal fa-smile smile"></i>
+                                        <i class="fal fa-meh no"></i>
+                                        <i class="fal fa-frown sad"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map">
+                            <div class="row1">
+                                <div class="box-title"></div>
+                                <div class="box1"></div>
+                                <div class="box1"></div>
+                                <div class="box1"></div>
+                                <div class="box1"></div>
+                                <div class="box1"></div>
+                            </div>
+                        </div>
+
+                    </div> -->
+
+
+                    <div class="journey">
+                        <div class="row1">
+                            <div class="box-title"></div>
+                            <div class="boxes">
+                                <div class="journey-line"></div>
+                                <div class="box1">
+                                    <!-- <div class="journey-line"></div> -->
+                                    <div class="emotion-area">
+                                        <div class="emotion-title">
+                                            <textarea class="input-style emo-title" style="resize: none;" spellcheck="false">Process</textarea>
+                                        </div>
+                                        <div class="emotion-icon icon1">
+                                                <i class="fal fa-smile smile"></i>
+                                                <i class="fal fa-meh no"></i>
+                                                <i class="fal fa-frown sad"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box1">
+                                    <div class="emotion-area">
+                                <div class="emotion-title">
+                                    <textarea class="input-style emo-title" style="resize: none;" spellcheck="false">Process</textarea>
+                                </div>
+                                <div class="emotion-icon icon2">
+                                        <i class="fal fa-smile smile"></i>
+                                        <i class="fal fa-meh no"></i>
+                                        <i class="fal fa-frown sad"></i>
+                                </div>
+                            </div>
+                                </div>
+                                <div class="box1">
+                                    <div class="emotion-area">
+                                <div class="emotion-title">
+                                    <textarea class="input-style emo-title" style="resize: none;" spellcheck="false">Process</textarea>
+                                </div>
+                                <div class="emotion-icon icon3">
+                                        <i class="fal fa-smile smile"></i>
+                                        <i class="fal fa-meh no"></i>
+                                        <i class="fal fa-frown sad"></i>
+                                </div>
+                            </div>
+                                </div>
+                                <div class="box1">
+                                    <div class="emotion-area">
+                                <div class="emotion-title">
+                                    <textarea class="input-style emo-title" style="resize: none;" spellcheck="false">Process</textarea>
+                                </div>
+                                <div class="emotion-icon icon4">
+                                        <i class="fal fa-smile smile"></i>
+                                        <i class="fal fa-meh no"></i>
+                                        <i class="fal fa-frown sad"></i>
+                                </div>
+                            </div>
+                                </div>
+                                <div class="box1">
+                                    <div class="emotion-area">
+                                <div class="emotion-title">
+                                    <textarea class="input-style emo-title" style="resize: none;" spellcheck="false">Process</textarea>
+                                </div>
+                                <div class="emotion-icon">
+                                        <i class="fal fa-smile smile"></i>
+                                        <i class="fal fa-meh no"></i>
+                                        <i class="fal fa-frown sad"></i>
+                                </div>
+                            </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row1 line-bottom">
+                            <div class="box-title line-right">
+                                <h4>User activity</h4>
+                            </div>
+                            <div class="boxes">
+                                <div class="box1 line-right">
+                                    <textarea class="input-style journeybox" style="resize: none;" spellcheck="false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt reprehenderit, aut veniam veritatis saepe est quis, temporibus doloribus eaque fuga architecto, earum maxime laudantium </textarea>
+                                </div>
+                                <div class="box1 line-right">
+                                    <textarea class="input-style journeybox" style="resize: none;" spellcheck="false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt reprehenderit, aut veniam veritatis saepe est quis, temporibus doloribus eaque fuga architecto, earum maxime laudantium </textarea>
+                                </div>
+                                <div class="box1 line-right">
+                                    <textarea class="input-style journeybox" style="resize: none;" spellcheck="false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt reprehenderit, aut veniam veritatis saepe est quis, temporibus doloribus eaque fuga architecto, earum maxime laudantium </textarea>
+                                </div>
+                                <div class="box1 line-right">
+                                    <textarea class="input-style journeybox" style="resize: none;" spellcheck="false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt reprehenderit, aut veniam veritatis saepe est quis, temporibus doloribus eaque fuga architecto, earum maxime laudantium </textarea>
+                                </div>
+                                <div class="box1 line-right">
+                                    <textarea class="input-style journeybox" style="resize: none;" spellcheck="false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt reprehenderit, aut veniam veritatis saepe est quis, temporibus doloribus eaque fuga architecto, earum maxime laudantium </textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row1">
+                            <div class="box-title line-right">
+                                <h4>Pain Point</h4>
+                            </div>
+                            <div class="boxes">
+                                <div class="box1 line-right">
+                                    <textarea class="input-style journeybox" style="resize: none;" spellcheck="false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt reprehenderit, aut veniam veritatis saepe est quis, temporibus doloribus eaque fuga architecto, earum maxime laudantium </textarea>
+                                </div>
+                                <div class="box1 line-right">
+                                     <textarea class="input-style journeybox" style="resize: none;" spellcheck="false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt reprehenderit, aut veniam veritatis saepe est quis, temporibus doloribus eaque fuga architecto, earum maxime laudantium </textarea>
+                                </div>
+                                <div class="box1 line-right">
+                                     <textarea class="input-style journeybox" style="resize: none;" spellcheck="false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt reprehenderit, aut veniam veritatis saepe est quis, temporibus doloribus eaque fuga architecto, earum maxime laudantium </textarea>
+                                </div>
+                                <div class="box1 line-right">
+                                     <textarea class="input-style journeybox" style="resize: none;" spellcheck="false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt reprehenderit, aut veniam veritatis saepe est quis, temporibus doloribus eaque fuga architecto, earum maxime laudantium </textarea>
+                                </div>
+                                <div class="box1 line-right">
+                                     <textarea class="input-style journeybox" style="resize: none;" spellcheck="false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt reprehenderit, aut veniam veritatis saepe est quis, temporibus doloribus eaque fuga architecto, earum maxime laudantium </textarea>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="slide content4" background-image="url(#)">
+                    <div class="content4-content">
+                        <div class="system logo-system">
+                            <h2 class="system-title">Logo system</h2>
+                            <textarea class="input-style logo-p" style="resize: none;" spellcheck="false">로고는 다음과 같은 이미지를 사용합니다.</textarea>
+                        </div>
+                        <div class="system-logo"><i class="fas fa-camera interview-img"></i></div>
+
+                        <div class="system color-system">
+                            <h2 class="system-title">Color system</h2>
+                            <div class="circles">
+                                <div class="circle-box">
+                                    <div class="system-circle">
+                                        <div class="color-circle color-circle1">
+                                            <div class="white-circle"></div>
+                                        </div>
+                                    </div>
+                                    <textarea class="input-style color-info color-info1" style="resize: none;" maxlength="7" placeholder="" spellcheck="false">#000000</textarea>
+                                </div>
+                                <div class="circle-box">
+                                    <div class="system-circle">
+                                        <div class="color-circle color-circle2">
+                                            <div class="white-circle"></div>
+                                        </div>
+                                    </div>
+                                    <textarea class="input-style color-info color-info2" style="resize: none;" maxlength="7" placeholder="" spellcheck="false">#000000</textarea>
+                                </div>
+                                <div class="circle-box">
+                                    <div class="system-circle">
+                                        <div class="color-circle color-circle3">
+                                            <div class="white-circle"></div>
+                                        </div>
+                                    </div>
+                                    <textarea class="input-style color-info color-info3" style="resize: none;" maxlength="7" placeholder="" spellcheck="false">#000000</textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="system font-system">
+                            <h2 class="system-title">Font system</h2>
+                            <div class="font-size-box">
+                            <textarea class="input-style logo-p" style="resize: none;" spellcheck="false">모든 서비스와 문서에 Noto Sans를 사용합니다.</textarea>
+                            <div class="font-box">
+                                <div class="font-container">
+                                    <div class="font-sz font-1">
+                                        <h3>Heading1</h3>
+                                        <textarea class="input-style color-info font1" style="resize: none;" maxlength="4" placeholder="" spellcheck="false">00px</textarea>
+                                        <p>Lorem ipsum dolor</p>
+                                    </div>
+                                    <div class="font-sz font-2">
+                                        <h3>Heading2</h3>
+                                        <textarea class="input-style color-info font2" style="resize: none;" maxlength="4" placeholder="" spellcheck="false">00px</textarea>
+                                        <p>Lorem ipsum dolor</p>
+                                    </div>
+                                    <div class="font-sz font-3">
+                                        <h3>Heading3</h3>
+                                        <textarea class="input-style color-info font3" style="resize: none;" maxlength="4" placeholder="" spellcheck="false">00px</textarea>
+                                        <p>Lorem ipsum dolor</p>
+                                    </div>
+                                    <div class="font-sz font-4">
+                                        <h3>Heading4</h3>
+                                        <textarea class="input-style color-info font4" style="resize: none;" maxlength="4" placeholder="" spellcheck="false">00px</textarea>
+                                        <p>Lorem ipsum dolor</p>
+                                    </div>
+                                </div>
+
+                                <div class="font-container">
+                                    <div class="font-sz font-5">
+                                        <h3>Paragraph1</h3>
+                                        <textarea class="input-style color-info font5" style="resize: none;" maxlength="4" placeholder="" spellcheck="false">00px</textarea>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing</p>
+                                    </div>
+                                    <div class="font-sz font-6">
+                                        <h3>Paragraph2</h3>
+                                        <textarea class="input-style color-info font6" style="resize: none;" maxlength="4" placeholder="" spellcheck="false">00px</textarea>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing</p>
+                                    </div>
+                                    <div class="font-sz font-7">
+                                        <h3>Paragraph3</h3>
+                                        <textarea class="input-style color-info font7" style="resize: none;" maxlength="4" placeholder="" spellcheck="false">00px</textarea>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="slide content5" background-image="url(#)">
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0)" width="100%" height="100%" src="#" allowfullscreen></iframe>
+                    <div class="embed-area1">
+                        <img src="https://i.postimg.cc/vHdxKSFv/image.png" width="60px">
+                        <p>임베드 코드 안의     <span>src=" "</span>    안의 주소를 입력하세요.</p>
+                        <textarea class="input-style embed-text1" style="resize: none;" spellcheck="false">피그마 주소를 입력하세요.</textarea>
+                        <a><div class="ebd-ok1 nav-btn color-btn2">Embed</div></a>
+                    </div>
+
+                </div>
+                <div class="slide content6" background-image="url(./imgs/flow-img/uidesign.png)">
+                    
+                    
+                    <div class="area"></div>
+                    <div class="click-area"></div>
+                    <div class="pin-area"><i class="fas fa-thumbtack"></i></div>
+                </div>
+                <div class="slide content7" background-image="url(#)">
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0)" width="100%" height="100%" src="#" allowfullscreen></iframe>
+                    <div class="embed-area2">
+                        <img src="https://i.postimg.cc/vHdxKSFv/image.png" width="60px">
+                        <p>프로토타입 임베드 코드 안의     <span>src=" "</span>    안의 주소를 입력하세요.</p>
+                        <textarea class="input-style embed-text2" style="resize: none;" spellcheck="false">피그마 프로토타입 주소를 입력하세요.</textarea>
+                        <a><div class="ebd-ok2 nav-btn color-btn3">Embed</div></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-flow">
+                <div class="flow-done"><i class="fal fa-check"></i></div>
+                <!-- <div class="project-flow-line"></div> -->
+                <div class="project-flow-area">
+                        <div class="project-flow-line"></div>
+                        <div class="flow first">
+                            <div class="circle circle-selected"></div>
+                            <div class="flow-text text-selected">Overview</div>
+                            <div class="flow-close close1"><i class="fal fa-times"></i></div>
+                        </div>
+                        <div class="flow 2nd">
+                            <div class="circle"></div>
+                            <div class="flow-text">Interview</div>
+                            <div class="flow-close close2"><i class="fal fa-times"></i></div>
+                        </div>
+                        <!-- <div class="flow 3rd">
+                            <div class="circle"></div>
+                            <div class="flow-text">Persona</div>
+                        </div> -->
+                        <div class="flow 4th">
+                            <div class="circle"></div>
+                            <div class="flow-text">User<br>journey</div>
+                            <div class="flow-close close4"><i class="fal fa-times"></i></div>
+                        </div>
+                        <div class="flow 5th">
+                            <div class="circle"></div>
+                            <div class="flow-text">Design<br>system</div>
+                            <div class="flow-close close5"><i class="fal fa-times"></i></div>
+                        </div>
+                        <div class="flow 6th">
+                            <div class="circle"></div>
+                            <div class="flow-text">Wireframe</div>
+                            <div class="flow-close close6"><i class="fal fa-times"></i></div>
+                        </div>
+                        <div class="flow 7th">
+                            <div class="circle"></div>
+                            <div class="flow-text">UI<br>design</div>
+                            <div class="flow-close close7"><i class="fal fa-times"></i></div>
+                        </div>
+                        <div class="flow 8th">
+                            <div class="circle"></div>
+                            <div class="flow-text">User<br>test</div>
+                            <div class="flow-close close8"><i class="fal fa-times"></i></div>
+                        </div>
+                </div>
+
+                <!-- <i class="fal fa-chevron-right rightarrow"></i>
+                <i class="fal fa-chevron-left leftarrow"></i> -->
+
+                <!-- <div class="right-box">
+                    <div class="archive right-box-content">
+                        <div class="archive-icon right-box-icon"><i class="fal fa-bookmark"></i></div>
+                        <p>저장</p>
+                    </div>
+                    <div class="likes right-box-content">
+                        <div class="likes-icon right-box-icon"><i class="fal fa-heart"></i></div>
+                        <p>좋아요</p>
+                    </div>
+                    <div class="comment right-box-content">
+                        <div class="comment-icon right-box-icon"><i class="fal fa-comment-alt-smile"></i></div>
+                        <p>댓글</p>
+                    </div>
+                </div>   -->
+
+
+
+
+                <script src="upload.js"></script>
+    
+</body>
+</html>
+
